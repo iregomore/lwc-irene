@@ -1,0 +1,16 @@
+<template>
+
+    <lightning-card title="Hello with Get and Set" icon-name="custom:custom27">
+
+        <div class="slds-m-around-medium">
+            <lightning-input label="First Name" onchange={handleChanges}>
+                {firstName}
+            </lightning-input>
+            <lightning-input label="Second Name" onchange={handleChanges}>
+                {lastName}
+            </lightning-input>
+            <p>Your complete name in UPPERCASE IS: {fullName}</p>
+        </div>
+    </lightning-card>
+    
+</template>

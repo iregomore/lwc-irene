@@ -6,6 +6,9 @@
             "c/basic_Hello": [
                 "basic_Hello/basic_Hello.js"
             ],
+            "c/basic_HelloGetSet": [
+                "basic_HelloGetSet/basic_HelloGetSet.js"
+            ],
             "c/basic_helloBind": [
                 "basic_helloBind/basic_helloBind.js"
             ]
