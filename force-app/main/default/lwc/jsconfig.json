@@ -6,6 +6,9 @@
             "c/basic_Hello": [
                 "basic_Hello/basic_Hello.js"
             ],
+            "c/basic_HelloConditionalRender": [
+                "basic_HelloConditionalRender/basic_HelloConditionalRender.js"
+            ],
             "c/basic_HelloGetSet": [
                 "basic_HelloGetSet/basic_HelloGetSet.js"
             ],
