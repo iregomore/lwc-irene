@@ -1,0 +1,24 @@
+{
+  "name": "lwc-jest",
+  "version": "1.0.0",
+  "description": "test for lwc",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "lwc-jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iregomore/lwc-irene.git"
+  },
+  "keywords": [
+    "Passw_00"
+  ],
+  "author": "iregomore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iregomore/lwc-irene/issues"
+  },
+  "homepage": "https://github.com/iregomore/lwc-irene#readme"
+}
