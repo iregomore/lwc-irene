@@ -2,28 +2,19 @@ import { LightningElement, track } from 'lwc';
 
 export default class Basic_HelloGetSet extends LightningElement {
 
-    privateFirstName;
-    privateLastName;
+    @track firstName = '';
+    @track lastName = '';
 
-    @track fullName;
-
-    get firstName() {
-        return this.privateFirstName;
+    get fullName() {
+        return `${this.firstName} ${this.lastName}`.trim().toUpperCase();
     }
 
-    set firstName(value){
-        this.privateFirstName = value;
-    }
-
-    get lastName() {
-        return this.privateLastName;
-    }
-
-    set lastName(value){
-        this.privateLastName = value;
-    }
-
-    handleChanges(){
-        this.fullName = this.privateFirstName.toUpperCase() + this.privateLastName.toUpperCase();
+    handleChanges(event){
+        const field = event.target.name;
+        if (field === 'firstName') {
+            this.firstName = event.target.value;
+        } else if (field === 'lastName') {
+            this.lastName = event.target.value;
+        }
     }
 }
