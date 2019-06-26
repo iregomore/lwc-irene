@@ -35,6 +35,9 @@
             ],
             "c/clock": [
                 "clock/clock.js"
+            ],
+            "c/todoList": [
+                "todoList/todoList.js"
             ]
         }
     },

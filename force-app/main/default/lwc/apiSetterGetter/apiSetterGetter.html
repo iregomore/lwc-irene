@@ -1,12 +1,28 @@
 <template>
-
-    <lightning-card title="Api Set and Get" icon-name="custom:custom25">
-        <div class="slds-m-around_medium">
-            <lightning-input type="text" label="description">{description}</lightning-input>
-            <lightning-input type="checkbox" label="Priority">{priority}</lightning-input>
-            <lightning-button label="Add to List" onclick={handleClick}>
-                </lightning-button>
-        </div>
-    </lightning-card>
+        <lightning-card
+            title="ApiSetterGetter"
+            icon-name="standard:product_consumed"
+        >
+            <div class="slds-m-around_medium">
+                <lightning-input
+                    label="Description"
+                    onchange={handleDescriptionChange}
+                    value={description}
+                ></lightning-input>
+                <lightning-input
+                    label="Priority"
+                    type="checkbox"
+                    onchange={handlePriorityChange}
+                    checked={priority}
+                ></lightning-input>
+                <lightning-button
+                    label="Add Todo"
+                    variant="brand"
+                    onclick={handleSave}
+                    class="slds-p-vertical_small"
+                ></lightning-button>
+                <c-todo-list todos={todos}></c-todo-list>
+            </div>
     
-</template>
+        </lightning-card>
+    </template>
