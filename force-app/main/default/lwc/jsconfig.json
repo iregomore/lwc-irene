@@ -3,6 +3,9 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/basic_ForEach": [
+                "basic_ForEach/basic_ForEach.js"
+            ],
             "c/basic_Hello": [
                 "basic_Hello/basic_Hello.js"
             ],

@@ -1,0 +1,14 @@
+<template>
+    
+    <lightning-card title="For Each" icon-name="custom:custom16">
+        <div class="slds-m-around_medium">
+            <ul>
+                <template for:each={contacts} for:item="contact">
+                    <li key={contact.Id}>
+                        {contact.name} {contact.email}
+                    </li>
+                </template>
+            </ul>            
+        </div>
+    </lightning-card>
+</template>
