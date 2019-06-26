@@ -9,6 +9,9 @@
             "c/apiProperty": [
                 "apiProperty/apiProperty.js"
             ],
+            "c/apiSetterGetter": [
+                "apiSetterGetter/apiSetterGetter.js"
+            ],
             "c/basic_ForEach": [
                 "basic_ForEach/basic_ForEach.js"
             ],
