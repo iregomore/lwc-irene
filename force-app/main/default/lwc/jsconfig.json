@@ -29,6 +29,9 @@
             ],
             "c/chartBar": [
                 "chartBar/chartBar.js"
+            ],
+            "c/clock": [
+                "clock/clock.js"
             ]
         }
     },
