@@ -23,6 +23,9 @@
             ],
             "c/basic_helloBind": [
                 "basic_helloBind/basic_helloBind.js"
+            ],
+            "c/chartBar": [
+                "chartBar/chartBar.js"
             ]
         }
     },
